@@ -1,0 +1,64 @@
+﻿.gamedetail_container {
+    background-color: #D6DBDF;
+}
+
+.edit_panel {
+    background-color: #808B96;
+    margin:44px 0 0 0;
+}
+
+.gamedetail {
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+    .gamedetail .game_name {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    .gamedetail .game_year {
+        text-align: center;
+    }
+
+    .gamedetail .game_price {
+        text-align: center;
+    }
+
+    .gamedetail .game_plaform {
+        text-align: center;
+    }
+
+    .gamedetail .game_image {
+        float: right;
+        margin: 0 0 10px 30px;
+    }
+
+        .gamedetail .game_image img {
+            width: 100%;
+        }
+
+    .gamedetail .game_description {
+    }
+
+.buttons_for_edit {
+    display: inline-block;
+    font-size: 20px;
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 700;
+    padding: 10px 5px 0px 5px;
+    float: right;
+    height: 50px;
+}
+
+    .buttons_for_edit a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    .buttons_for_edit:hover {
+        background-color: #337ab7;
+    }

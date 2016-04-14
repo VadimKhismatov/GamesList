@@ -1,0 +1,101 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 3000px) {
+    .gamelist_container {
+        height: 890px;
+    }
+    .gamedetail_container {
+        height: 890px;
+    }
+    .gameeditor_container {
+    height: 890px;
+}
+}
+
+@media only screen and (max-width : 2000px) {
+    .gamelist_container {
+        height: 842px;
+    }
+    
+}
+
+@media only screen and (max-width : 1920px) {
+    .gamelist_container {
+        height: 867px;
+    }
+    
+}
+
+@media only screen and (max-width : 1600px) {
+    .gamelist_container {
+        height: 711px;
+    }
+
+    
+
+    @media only screen and (max-width : 1440px) {
+        .gamelist_container {
+            height: 849px;
+        }
+    }
+
+    @media only screen and (max-width : 1280px) {
+        .gamelist_container {
+            height: 863px;
+        }
+    }
+
+    @media only screen and (max-width : 1200px) {
+        .gamelist_container {
+            height: 843px;
+        }
+    }
+
+    @media only screen and (max-width : 1024px) {
+        .gamelist_container {
+            height: 637px;
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+        .gamelist_container {
+            height: 867px;
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+    }
+
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width : 320px) {
+    }
+
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+    }

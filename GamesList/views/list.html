@@ -1,0 +1,17 @@
+﻿<div class="gamelist_container">
+    <div class="container">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-2 game" ng-repeat="game in ctrl.games">
+                    <div class="image_box">
+                        <img ng-src="{{game.image}}" />
+                    </div>
+                    <div class="game_title">
+                        <span><a href="#/gamedetails.html/id={{game.id}}">{{game.name}}</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

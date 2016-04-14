@@ -1,0 +1,79 @@
+﻿body {
+    margin: 0px;
+}
+
+.header {
+    background-color: #566573;
+}
+
+    .header .text_name {
+        /*background-color: red;*/
+        float: left;
+        text-align: center;
+        font-size: 50px;
+        font-family: roboto;
+        font-weight: 700;
+    }
+
+.soc_buttons {
+    float: right;
+}
+
+.soc_links {
+    font-size: 50px;
+    color: #333;
+}
+
+.nav_panel {
+    background-color: #808B96;
+}
+
+    .nav_panel .link_box {
+        display: inline-block;
+        height: 50px;
+        margin: 0 10px 0 0;
+        padding: 10px 5px 0px 5px;
+    }
+
+        .nav_panel .link_box:hover {
+            background-color: #337ab7;
+        }
+
+.nav_links {
+    color: #333;
+    font-size: 20px;
+    font-family: roboto;
+    font-style: normal;
+    font-weight: 700;
+}
+
+    .nav_links:hover {
+        text-decoration: none;
+        color: #333;
+    }
+
+    .nav_links:visited {
+        text-decoration: none;
+        color: #333;
+    }
+
+
+
+
+.footer {
+    background-color: #566573;
+    height: 50px;
+    
+}
+
+/*Style for Validation*/
+
+
+.form_container .inputs input.ng-invalid.ng-dirty {
+    border: 1px solid #C0392B;
+}
+
+input[disabled="disabled"] {
+    opacity: 0.4;
+    cursor: not-allowed;
+}

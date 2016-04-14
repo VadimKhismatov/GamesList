@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html ng-app="gameshop">
+<head>
+    <title>Games List</title>
+	<meta charset="utf-8" />
+    <link href="libs/css/bootstrap.css" rel="stylesheet" />
+    <link href="libs/css/font-awesome.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/gamelist.css" rel="stylesheet" />
+    <link href="css/editpage.css" rel="stylesheet" />
+    <link href="css/gamedetails.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="text_name">
+                        Games List
+                    </div>
+                    <div class="soc_buttons">
+                        <a class="soc_links" href="#"><i class="fa fa-twitter-square"></i></a>
+                        <a class="soc_links" href="#"><i class="fa fa-vk"></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="nav_panel">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="link_box"><a class="nav_links" href="#/list.html">Games List</a></div>
+                    <div class="link_box"><a class="nav_links" href="#/edit.html">Add Game</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Content from pages in views goes here-->
+    <ng-view>
+
+    </ng-view>
+    
+    
+    
+    <div class="footer">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="row">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Scripts-->
+    <script src="scripts/libs/angular.js"></script>
+    <script src="scripts/libs/angular-route.js"></script>
+    <script src="scripts/libs/jquery-2.2.3.js"></script>
+
+    <script src="scripts/app/app.js"></script>
+    <script src="scripts/app/services/dataService.js"></script>
+    <script src="scripts/app/controllers/listController.js"></script>
+    <script src="scripts/app/controllers/gameDetailController.js"></script>
+    <script src="scripts/app/controllers/editController.js"></script>
+    </body>
+</html>

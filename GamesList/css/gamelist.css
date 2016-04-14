@@ -1,0 +1,35 @@
+﻿.gamelist_container {
+    background-color: #D6DBDF;
+}
+
+.game {
+    background-color:#808B96;
+    padding: 0;
+    margin: 5px 13px 10px 23px;
+}
+
+    .game .image_box {
+        /*margin: 0 0 5px 0;*/
+    }
+
+        .game .image_box img {
+            width: 100%;
+            height: 300px;
+        }
+
+    .game .game_title {
+        text-align: center;
+    }
+
+        .game .game_title span {
+            font-family: roboto;
+            font-size: 18px;
+            font-weight: 500;
+        }
+            .game .game_title span a {
+                color:#333;
+                text-decoration:none;
+            }
+        .game .game_title span a:hover{
+            background-color:#337ab7;
+        }

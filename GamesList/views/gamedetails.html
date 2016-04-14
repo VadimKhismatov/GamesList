@@ -1,0 +1,83 @@
+﻿<div class="gamedetail_container">
+    <div class="container">
+
+        <div class="col-md-12">
+            <div class="row">
+                <div class="gamedetail ">
+                    <div class="game_name">
+                        {{ctrl.model.name}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="row">
+                <div class="gamedetail ">
+                    <div class="game_image">
+                        <!--Game Image-->
+                        <img ng-src="{{ctrl.model.image}}" />
+                    </div>
+
+                </div>
+
+                <div class="gamedetail ">
+                    <div class="game_description">
+                        {{ctrl.model.description}}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="col-md-12 edit_panel">
+            <div class="row">
+
+                <div class="gamedetail col-md-2">
+                    <div class="game_year">
+                        Release Date: {{ctrl.model.year}}
+                    </div>
+                </div>
+
+                <div class="gamedetail col-md-2">
+                    <div class="game_price">
+                        Game Price: <br /> {{ctrl.model.price | currency}}
+                    </div>
+
+                </div>
+
+                <div class="gamedetail col-md-3">
+                    <div class="game_plaform">
+                        Game Platform:<br />
+                        {{ctrl.model.platform}}
+                    </div>
+
+                </div>
+
+                <div class="gamedetail col-md-2">
+                    <div class="game_plaform">
+                        Game Genre:<br />
+                        {{ctrl.model.genre}}
+                    </div>
+
+                </div>
+
+                <div class="buttons_for_edit delete_button">
+                    <a href="#" ng-click="ctrl.remove(ctrl.model.id)">Delete Game</a>
+                </div>
+                <div class="buttons_for_edit edit_button">
+                    <a href="#/edit.html?id={{ctrl.model.id}}">Edit Game</a>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
