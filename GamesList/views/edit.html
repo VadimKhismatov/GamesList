@@ -1,17 +1,17 @@
 ﻿<div class="gameeditor_container">
     <div class="container">
         <div class="form_inf">
-            <div class="col-md-12">
-                <div class="row">
+            <div class="row">
+                <div class="col-md-12">
                     <div> This form used to add or edit games</div>
                 </div>
             </div>
         </div>
 
         <div class="form_container">
-            <div class="col-md-12">
+            <div class="row">
                 <form name="edit" novalidate ng-submit="ctrl.addGame()">
-                    <div class="row">
+                    <div class="col-md-12">
                         <div class="inputs">
                             <label class="input_names"> Name of the Game </label><br />
 
@@ -21,7 +21,7 @@
                             <span ng-show="edit.name.$error">Enter the game name</span>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="col-md-12">
                         <div class="inputs">
                             <label class="input_names">Release Date</label><br />
 
@@ -31,7 +31,7 @@
                             <span ng-show="edit.year.$error">Enter release date of the game</span>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="col-md-12">
                         <div class="inputs">
                             <label class="input_names">Platforms</label><br />
 
@@ -41,7 +41,7 @@
                             <span ng-show="edit.platform.$error">Enter platforms on which this game is available</span>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="col-md-12">
                         <div class="inputs">
                             <label class="input_names">Price</label><br />
 
@@ -51,7 +51,7 @@
                             <span ng-show="edit.price.$error">Enter a price of this game</span>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="col-md-12">
                         <div class="inputs">
                             <label class="input_names">Description</label><br />
 
@@ -62,7 +62,7 @@
                             <span ng-show="edit.description.$error">Enter a description of this game</span>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="col-md-12">
                         <div class="inputs">
                             <label class="input_names">Image</label><br />
 
@@ -72,13 +72,13 @@
                             <span ng-show="edit.image.$error">Enter URL with image of this game</span>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="col-md-12">
                         <div class="inputs">
                             <img ng-src="{{ctrl.model.image}}" />
                         </div>
 
                     </div>
-                    <div class="row buttons">
+                    <div class="col-md-12 buttons">
                         <input class="btn btn-primary " type="submit" value="Add" ng-disabled="edit.$invalid"/>
                         <input class="btn btn-primary" type="button" value="Cancel" ng-click="ctrl.clear()"/>
                     </div>
